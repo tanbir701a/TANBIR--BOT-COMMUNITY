@@ -1,26 +1,119 @@
-name: Node.js CI
-
-on:
-  workflow_dispatch:
-  
-
-jobs:
-  build:
-
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm start
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261578114788664%22%3A%22RFYydFL0%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "datr",
+        "value": "T_lyaAimZb64X2SlMk_Zzavi",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "sb",
+        "value": "T_lyaAe6WxWIekWEc1Go-3n5",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61578114788664",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "xs",
+        "value": "7%3A5PN-aApVFFdczw%3A2%3A1752365419%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "pas",
+        "value": "61578114788664%3AWAPOWInhrf",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B683x375x2.8860480785369873",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "fr",
+        "value": "035fRQLyCRC6vjosj.AWfKIGVPUWHbK0683iZWJggevEm1KWoB83vjAs3OkI0GxdQKqYo.BocvlP..AAA.0.0.Bocx84.AWfgLaBTp1NYjlWW3DNgutKqUck",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101026857%3BT%3A29206251",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2868%3Btimestamp%3A1752375096",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-07-13T02:57:20.006Z",
+        "lastAccessed": "2025-07-13T02:57:20.006Z"
+    }
+]
